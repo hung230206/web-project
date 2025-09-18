@@ -1,0 +1,46 @@
+.mainHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.mainNav{
+    background-color: rgb(224, 70, 70);
+    }
+
+.mainNav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+
+.mainNav li {
+    padding: 10px;
+}
+.mainNav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.mainBody {
+    display: flex;
+    gap: 20px;
+}
+.left-Content {
+    flex: 1;
+}
+.main-Content {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;       /* căn dọc nếu muốn */
+    flex-direction: column; 
+    
+}
+.main-Content img {
+    width: 80%;      /* ảnh chiếm hết chiều ngang container */
+    height: auto;
+}
+.right-Content {
+    flex: 1;
+}
